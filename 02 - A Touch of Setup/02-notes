@@ -1,3 +1,6 @@
+007 - Link to Github Repo
+->The solved version of every problem in this course can be found here: https://github.com/StephenGrider/algocasts
+
 006 - Repo Test Setup
 ->each respective problem is on the index.js
 ->to evaluate our code we use jest
