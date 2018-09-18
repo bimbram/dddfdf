@@ -21,8 +21,11 @@ function palindrome(str) {
 }
 */
 
-// My solution
-
-
+// Alternate solution (using 'every' array helper)
+function palindrome(str) {
+  return str.split('').every((char, i, arr) => {
+    return char === arr[arr.length - 1 - i];
+  });
+}
 
 module.exports = palindrome;

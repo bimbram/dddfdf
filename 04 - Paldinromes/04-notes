@@ -1,3 +1,8 @@
+015 - Palindromes Alternate Solution
+->The 'every' array helper function is used to check every element of an array to a specific condition, result in boolean value
+->Give multiple solutions to a problem
+->I manage to 'see' the solution after a little explanation from Grider
+
 014 - Palindromes Solution 1
 ->My solution and Grider's first solution is the same
 
