@@ -28,7 +28,7 @@ function reverse(str) {
   return str.split("").reverse().join("");
 }
 
-*/
+
 
 // Second solution
 function reverse(str) {
@@ -38,7 +38,15 @@ function reverse(str) {
   }
   return reversed;
 }
-
+*/
+// Third solution
+function reverse(str) {
+  return str
+    .split("")
+    .reduce(function(reversedString, character){
+      return character + reversedString
+    }, '');
+}
 
 
 

@@ -1,3 +1,6 @@
+011 - String Reversal Solution 3
+->We're using the reduce functionality
+
 010 - String Reversal Solution 2
 ->It's better not to use the classical for loop, because there are many chances to find typos
 
