@@ -1,3 +1,10 @@
+006 - Repo Test Setup
+->each respective problem is on the index.js
+->to evaluate our code we use jest
+
+005 - Environment Setup
+->Cloning theh repository
+
 004 - Dont Skip Me
 ->This course makes heavy use of ES2015+ features, so to avoid any possible errors please be update your version of Node JS on your local machine.
 ->To check your current version, run node -v at the command line.  If you have any version earlier than v8.0, please get an updated version of Node here: https://nodejs.org/en/download/current/
