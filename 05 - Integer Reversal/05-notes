@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 016 - Reversing Int
+=======
+015 - Reversing Int
+>>>>>>> 8916f16ef9794bae73897ecc62aba4f5182c1755
 ->Grider recommends some helper:
 1. toString() on a number
 2. Math.sign() to evaluate whether a number is negative or positive
