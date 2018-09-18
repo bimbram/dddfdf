@@ -7,6 +7,7 @@
 
 
 // My solution
+/*
 function maxChar(str) {
   var nonduplicate = str
     .split('')
@@ -26,6 +27,18 @@ function maxChar(str) {
   var maxCount = Math.max(...charCount);
   var indexMaxCount = charCount.indexOf(maxCount);
   return nonduplicate[indexMaxCount];
+}
+*/
+
+// My solution after watching the first video
+function maxChar(str) {
+  var charObj = {}
+  for(let char of str) {
+    charObj[char] = charObj[char] + 1 || 1;
+  }
+  var charCountArr = Object.keys(charObj).map(key => charObj[key]);
+  var maxIndex = charCountArr.indexOf( Math.max(...charCountArr) );
+  return Object.keys( charObj )[ maxIndex ];
 }
 
 module.exports = maxChar;
