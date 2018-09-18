@@ -12,21 +12,34 @@ function reverse(str) {
   return str.split("").reverse().join("");
 }
 
+// My solution using a loop
+function reverse(str) {
+  var newStr = "";
+  var counter = 1;
+  while(newStr.length < str.length) {
+    newStr += str[str.length-counter]
+    counter++;
+  }
+  return newStr;
+}
+
 // First solution
 function reverse(str) {
   return str.split("").reverse().join("");
 }
 
 */
-// My solution using a loop
+
+// Second solution
 function reverse(str) {
-  var newStr = ""
-  var counter = 1
-  while(newStr.length < str.length) {
-    newStr += str[str.length-counter]
-	counter++
+  let reversed = "";
+  for(let character of str) {
+    reversed = character + reversed
   }
-  return newStr;
+  return reversed;
 }
+
+
+
 
 module.exports = reverse;

@@ -1,4 +1,7 @@
-009 String Reversal Solution 1009 String Reversal Solution 1
+010 - String Reversal Solution 2
+->It's better not to use the classical for loop, because there are many chances to find typos
+
+009 - String Reversal Solution 1
 function reverse(str) {
   return str.split("").reverse().join("");
 }
