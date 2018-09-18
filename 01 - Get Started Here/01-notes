@@ -1,3 +1,20 @@
+003 - Getting Better at Coding Questions
+->Evaluating coding ability
+1. take-home assignment
+2. pair programming at a computer
+3. whiteboarding - it is a tool of preference for big company
+
+->How to get really good at whiteboard questions?
+1. practice, practice, practice
+
+->Common interview questions:
+1. FizzBuzz: Write a program that printes the numbers from 1 to 100. But for multiplies of three print "Fizz" instead of the number and for the multiplies of five print "Buzz". For numbers which are multiplies of both three and five print "FizzBuzz"
+2. Fiibonacci series: A series of numbers in which each number (fibonacci series) is the sum of the two preceding numbers. The simplest is the seris 1,1,2,3,5,8
+
+->Many interview questions are moderately difficult
+->Very few programmer can think on top of their hat the recursive answer for the fibonacci series
+
+
 002 - The All Important Coding Interview
 -Contact Phase
 1. Talk to recruiter
