@@ -41,4 +41,6 @@ function maxChar(str) {
   return Object.keys( charObj )[ maxIndex ];
 }
 
+
+
 module.exports = maxChar;
