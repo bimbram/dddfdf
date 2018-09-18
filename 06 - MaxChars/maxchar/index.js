@@ -40,11 +40,12 @@ function maxChar(str) {
   var maxIndex = charCountArr.indexOf( Math.max(...charCountArr) );
   return Object.keys( charObj )[ maxIndex ];
 }
-*/
 
 // Solution
 function maxChar(str) {
   const charMap = {};
+  let max = 0;
+  let maxChar = '';
 
   for (let char of str) {
     if(charMap[char]) {
@@ -53,7 +54,40 @@ function maxChar(str) {
       charMap[char] = 1;
     }
   }
-  console.log(charMap);
+
+  // My solution
+  for(let prop in charMap) {
+    if(charMap[prop] > max) {
+      max = charMap[prop];
+      maxChar = prop;
+    }
+  }
+  return maxChar;
 }
+*/
+// Solution
+function maxChar(str) {
+  const charMap = {};
+  let max = 0;
+  let maxChar = '';
+
+  for (let char of str) {
+    if(charMap[char]) {
+      charMap[char]++;
+    } else {
+      charMap[char] = 1;
+    }
+  }
+
+  for (let char in charMap) {
+    if(charMap[char] > max) {
+      max = charMap[char];
+      maxChar = char;
+    }
+  }
+  return maxChar;
+}
+
+
 
 module.exports = maxChar;
