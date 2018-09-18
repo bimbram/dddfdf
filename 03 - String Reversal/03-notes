@@ -1,3 +1,8 @@
+012 - Debugger Statements
+->Learning to use debugger ("node inspect index.js")
+->You must use the debugger statement
+->Use 'repl' to get into repl and check variables
+
 011 - String Reversal Solution 3
 ->We're using the reduce functionality
 
