@@ -1,0 +1,5 @@
+016 - Reversing Int
+->Grider recommends some helper:
+1. toString() on a number
+2. Math.sign() to evaluate whether a number is negative or positive
+3. parseInt() to convert string to number
