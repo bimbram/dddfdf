@@ -17,4 +17,7 @@ function chunk(array, size) {
   return result;
 }
 
+// Solution 1
+
+
 module.exports = chunk;
