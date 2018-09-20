@@ -17,7 +17,7 @@ function chunk(array, size) {
   }
   return result;
 }
-*/
+
 // Solution 1
 function chunk(array, size) {
   const chunked = [];
@@ -31,7 +31,10 @@ function chunk(array, size) {
   }
   return chunked;
 }
-
+*/
 // Solution 2
+function chunk(array, size) {
+  
+}
 
 module.exports = chunk;
