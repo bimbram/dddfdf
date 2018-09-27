@@ -58,6 +58,22 @@ function pyramid(n, iteration = 0) {
   return pyramid(n-1, iteration + 1);
 }
 
+// Solution 1 (iterative)
+function pyramid(n) {
+  const midpoint = Math.floor((2*n-1) / 2);
+  for(let row = 0; row < n; row++) {
+    let level = '';
+    for(let collumn = 0; collumn < 2*n-1 ; collumn++) {
+      if(midpoint - row <= collumn && midpoint + row >= collumn) {
+        level+= '#';
+      } else {
+        level += ' ';
+      }
+    }
+    console.log(level);
+  }
+}
+
 
 
 
