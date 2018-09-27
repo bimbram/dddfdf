@@ -35,6 +35,18 @@ function spaces(n) {
   return stringSpaces;
 }
 
+// My recursive solution
+function steps(n) {
+  var i = arguments[1] || 1;
+  if(n === 0) {
+    return;
+  }
+  console.log('#'.repeat(i) + ' '.repeat(n-1));
+  steps(n-1, i+1);
+}
+
+// First solution (iterative solution)
+
 
 
 
