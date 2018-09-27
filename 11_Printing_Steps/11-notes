@@ -1,3 +1,8 @@
+039 - More on Steps
+->Create an iterative solution first before create a recursive solution if possible
+->Writing the recursive solution 
+
+
 038 - Step Up Your Steps Game
 ->Looking at recursive solution
 ->Recursive always need base case to stop a recursion
