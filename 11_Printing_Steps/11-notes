@@ -1,6 +1,19 @@
+038 - Step Up Your Steps Game
+->Looking at recursive solution
+->Recursive always need base case to stop a recursion
+->It's better to start from the base case
+->Change the argument when calling our own function (recursion)
+
+Recursion tips
+1. Figure out the bare  minimum pieces of information to represent your problem
+2. Give reasonable defaults to the bare minimum pieces of info
+3. Check the base case. Is there any work left to do? if not, return
+4. Do some work. Call your function again, making sure the arguments have changed in some fashion
+
+
 037 - Steps Solution 1 Continued
--> Try to write out possible solution on a pseudo-code on whiteboard interview
--> Stephen's solution is a little difficult 
+->Try to write out possible solution on a pseudo-code on whiteboard interview
+->Stephen's solution is a little difficult
 
 
 036 - Steps Solution 1
