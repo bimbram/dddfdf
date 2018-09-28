@@ -36,4 +36,10 @@ function vowels(str) {
   return count;
 }
 
+// Solution 2 (regular expression)
+function vowels(str) {
+  const matches = str.match(/[aiueo]/gi);
+  return matches ? matches.length : 0;
+}
+
 module.exports = vowels;
