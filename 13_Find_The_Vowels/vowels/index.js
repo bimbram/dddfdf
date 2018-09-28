@@ -24,4 +24,16 @@ function vowels(str) {
     }).length;
 }
 
+// Solution 1 (iterative)
+function vowels(str) {
+  let count = 0;
+  const checker = ['a','i','u','e','o'];
+  for(let char of str.toLowerCase()) {
+    if(checker.includes(char)) {
+      count++;
+    }
+  }
+  return count;
+}
+
 module.exports = vowels;
