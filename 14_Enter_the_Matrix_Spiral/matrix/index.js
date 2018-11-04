@@ -23,7 +23,18 @@
 //  [r3c0, r3c1, r3c2, r3c3]
 // ]
 
- 
+
+// Grider's iterative solution
+function matrix(n) {
+    
+}
+
+
+// Grider's recursive solution
+
+
+
+
 // My iterative solution
 function matrix(n) {
     var container = [];
@@ -128,7 +139,6 @@ function shouldIStayOnThisDirection(container, currentRow, currentCollumn, direc
 
 
 // My recursive solution
-/*
 function matrix(n, container=[], round=0, row=0, collumn=0, direction="", roundFinished=false) {
     var checkContainerNextIndex;
     var checkContainerLength;
@@ -235,9 +245,6 @@ function isNextIndexEmptyAndWithinRange(container, currentRow, currentCollumn, d
 }
 
 
-*/
 
 
-
-
-module.exports = matri;
+module.exports = matrix;
