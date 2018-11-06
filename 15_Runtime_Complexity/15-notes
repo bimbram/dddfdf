@@ -1,0 +1,9 @@
+051 - More on Runtime Complexity
+
+050 - Determining Complexity
+
+049 - What is Runtime Complexity
+-Runtime complexity describes the performance of an algorithm
+-How much more processing power/time is required to run your algorithm if we double the inputs?
+-There are linear runtime and non-linear runtime
+

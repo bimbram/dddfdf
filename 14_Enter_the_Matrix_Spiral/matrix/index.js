@@ -1,3 +1,4 @@
+
 // --- Directions
 // Write a function that accepts an integer N
 // and returns a NxN spiral matrix.
@@ -31,12 +32,14 @@ function matrix(n) {
 	results.push([]);
     }
 
+
     let counter = 1;
     let startColumn = 0;
     let endColumn = n - 1;
     let startRow = 0;
     let endRow = n - 1;
-
+    
+    
     while (startColumn <= endColumn && startRow <= endRow) {
 	// Top row
 	for (let i = startColumn; i <= endColumn; i++) {
@@ -50,6 +53,7 @@ function matrix(n) {
 	    results[i][endColumn] = counter;
 	    counter++;
 	}
+	
 	endColumn--;
 
 	// Bottom row
@@ -75,7 +79,7 @@ function matrix(n) {
     var rounds = 0;
     var row = 0;
     var collumn = 0;
-    var direction = "right"
+    var direction = "right";
     //create a the container matrix
     for(var x = 0; x < n; x++) {
 	container.push(Array(n));
